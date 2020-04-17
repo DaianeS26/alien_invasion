@@ -12,6 +12,7 @@ class Settings():
         self.ship_limit = 3
 
         #Bullet settings
+        #change width to 3 once game is complete 
         self.bullet_width = 300
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
