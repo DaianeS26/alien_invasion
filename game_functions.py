@@ -88,8 +88,6 @@ def check_bullet_alien_collisions(ai_settings, screen, stats, sb, ship, aliens, 
             stats.score += ai_settings.alien_points * len(aliens)
             sb.prep_score()
 
-     
-
     if len(aliens) == 0:
         #Destroy existing bullets, speed up game, and create new fleet
         bullets.empty()
